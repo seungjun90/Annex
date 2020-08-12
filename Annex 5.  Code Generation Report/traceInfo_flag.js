@@ -1,0 +1,57 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["ACC.c:42c38"]=1;
+    this.traceFlag["ACC.c:42c53"]=1;
+    this.traceFlag["ACC.c:43c16"]=1;
+    this.traceFlag["ACCClassical.c:37c32"]=1;
+    this.traceFlag["ACCClassical.c:37c59"]=1;
+    this.traceFlag["ACCClassical.c:40c43"]=1;
+    this.traceFlag["ACCClassical.c:53c22"]=1;
+    this.traceFlag["ACCClassical.c:54c26"]=1;
+    this.traceFlag["ACCClassical.c:54c49"]=1;
+    this.traceFlag["ACCClassical.c:54c55"]=1;
+    this.traceFlag["ACCClassical.c:56c31"]=1;
+    this.traceFlag["ACCClassical.c:56c54"]=1;
+    this.traceFlag["ACCClassical.c:56c60"]=1;
+    this.traceFlag["ACCClassical.c:57c57"]=1;
+    this.traceFlag["ACCClassical.c:58c33"]=1;
+    this.traceFlag["ACCClassical.c:64c22"]=1;
+    this.traceFlag["ACCClassical.c:66c29"]=1;
+    this.traceFlag["ACCClassical.c:66c31"]=1;
+    this.traceFlag["ACCClassical.c:67c19"]=1;
+    this.traceFlag["ACCClassical.c:77c19"]=1;
+    this.traceFlag["ACCClassical.c:84c16"]=1;
+    this.traceFlag["ACCClassical.c:87c22"]=1;
+    this.traceFlag["ACCClassical.c:90c24"]=1;
+    this.traceFlag["ACCClassical.c:90c26"]=1;
+    this.traceFlag["ACCClassical.c:91c24"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["ACC.c:41"]=1;
+    this.lineTraceFlag["ACC.c:42"]=1;
+    this.lineTraceFlag["ACC.c:43"]=1;
+    this.lineTraceFlag["ACCClassical.c:37"]=1;
+    this.lineTraceFlag["ACCClassical.c:40"]=1;
+    this.lineTraceFlag["ACCClassical.c:43"]=1;
+    this.lineTraceFlag["ACCClassical.c:53"]=1;
+    this.lineTraceFlag["ACCClassical.c:54"]=1;
+    this.lineTraceFlag["ACCClassical.c:56"]=1;
+    this.lineTraceFlag["ACCClassical.c:57"]=1;
+    this.lineTraceFlag["ACCClassical.c:58"]=1;
+    this.lineTraceFlag["ACCClassical.c:64"]=1;
+    this.lineTraceFlag["ACCClassical.c:65"]=1;
+    this.lineTraceFlag["ACCClassical.c:66"]=1;
+    this.lineTraceFlag["ACCClassical.c:67"]=1;
+    this.lineTraceFlag["ACCClassical.c:69"]=1;
+    this.lineTraceFlag["ACCClassical.c:77"]=1;
+    this.lineTraceFlag["ACCClassical.c:78"]=1;
+    this.lineTraceFlag["ACCClassical.c:84"]=1;
+    this.lineTraceFlag["ACCClassical.c:87"]=1;
+    this.lineTraceFlag["ACCClassical.c:88"]=1;
+    this.lineTraceFlag["ACCClassical.c:90"]=1;
+    this.lineTraceFlag["ACCClassical.c:91"]=1;
+    this.lineTraceFlag["ACCClassical.c:100"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
